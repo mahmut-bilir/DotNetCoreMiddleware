@@ -14,7 +14,11 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+// app.UseRouting();
+// app.UseAuth oriza tion();
+// app.UseAuth entica tion();
+// app.UseEndpoints(...);
+// app.UseHttpsRedirection();
 
 var summaries = new[]
 {
