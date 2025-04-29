@@ -19,7 +19,7 @@ if (app.Environment.IsDevelopment())
 // app.UseAuth entica tion();
 // app.UseEndpoints(...);
 // app.UseHttpsRedirection();
-
+app.UseMiddleware<RequestLoggingMiddleware>();
 var summaries = new[]
 {
     "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
